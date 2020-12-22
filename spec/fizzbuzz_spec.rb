@@ -17,3 +17,9 @@ describe 'fizzbuzz' do
     expect(fizzbuzz(15)).to eq 'fizzbuzz'
   end
 end
+
+describe 'fizzbuzz' do
+  it 'returns "error" when passed string' do
+    expect(fizzbuzz(" ")).to eq 'error'
+  end
+end
